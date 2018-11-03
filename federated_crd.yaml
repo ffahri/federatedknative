@@ -2,7 +2,7 @@
 apiVersion: apiextensions.k8s.io/v1beta1
 kind: CustomResourceDefinition
 metadata:
-  name: federated.configurations.serving.knative.dev
+  name: federatedconfigurations.serving.knative.dev
 spec:
   group: federated.serving.knative.dev
   names:
@@ -15,7 +15,7 @@ spec:
 apiVersion: apiextensions.k8s.io/v1beta1
 kind: CustomResourceDefinition
 metadata:
-  name: federatedconfigurationsplacements.federated.configurations.serving.knative.dev
+  name: federatedconfigurationsplacements.federatedconfigurations.serving.knative.dev
 spec:
   group: federated.serving.knative.dev
   names:
@@ -28,7 +28,7 @@ spec:
 apiVersion: apiextensions.k8s.io/v1beta1
 kind: CustomResourceDefinition
 metadata:
-  name: federatedconfigurationsoverrides.federated.configurations.serving.knative.dev
+  name: federatedconfigurationsoverrides.federatedconfigurations.serving.knative.dev
 spec:
   group: federated.serving.knative.dev
   names:
@@ -42,7 +42,7 @@ spec:
 apiVersion: apiextensions.k8s.io/v1beta1
 kind: CustomResourceDefinition
 metadata:
-  name: federated.revisions.serving.knative.dev
+  name: federatedrevisions.serving.knative.dev
 spec:
   group: federated.serving.knative.dev
   names:
@@ -55,7 +55,7 @@ spec:
 apiVersion: apiextensions.k8s.io/v1beta1
 kind: CustomResourceDefinition
 metadata:
-  name: federatedrevisionsplacements.federated.revisions.serving.knative.dev
+  name: federatedrevisionsplacements.federatedrevisions.serving.knative.dev
 spec:
   group: federated.serving.knative.dev
   names:
@@ -68,7 +68,7 @@ spec:
 apiVersion: apiextensions.k8s.io/v1beta1
 kind: CustomResourceDefinition
 metadata:
-  name: federatedrevisionsoverrides.federated.revisions.serving.knative.dev
+  name: federatedrevisionsoverrides.federatedrevisions.serving.knative.dev
 spec:
   group: federated.serving.knative.dev
   names:
@@ -82,7 +82,7 @@ spec:
 apiVersion: apiextensions.k8s.io/v1beta1
 kind: CustomResourceDefinition
 metadata:
-  name: federated.routes.serving.knative.dev
+  name: federatedroutes.serving.knative.dev
 spec:
   group: federated.serving.knative.dev
   names:
@@ -95,7 +95,7 @@ spec:
 apiVersion: apiextensions.k8s.io/v1beta1
 kind: CustomResourceDefinition
 metadata:
-  name: federatedroutesplacements.federated.routes.serving.knative.dev
+  name: federatedroutesplacements.federatedroutes.serving.knative.dev
 spec:
   group: federated.serving.knative.dev
   names:
@@ -108,7 +108,7 @@ spec:
 apiVersion: apiextensions.k8s.io/v1beta1
 kind: CustomResourceDefinition
 metadata:
-  name: federatedroutesoverrides.federated.routes.serving.knative.dev
+  name: federatedroutesoverrides.federatedroutes.serving.knative.dev
 spec:
   group: federated.serving.knative.dev
   names:
@@ -122,7 +122,7 @@ spec:
 apiVersion: apiextensions.k8s.io/v1beta1
 kind: CustomResourceDefinition
 metadata:
-  name: federated.services.serving.knative.dev
+  name: federatedservices.serving.knative.dev
 spec:
   group: federated.serving.knative.io
   names:
@@ -135,7 +135,7 @@ spec:
 apiVersion: apiextensions.k8s.io/v1beta1
 kind: CustomResourceDefinition
 metadata:
-  name: federatedservicesplacements.federated.services.serving.knative.dev
+  name: federatedservicesplacements.federatedservices.serving.knative.dev
 spec:
   group: federated.serving.knative.dev
   names:
@@ -148,7 +148,7 @@ spec:
 apiVersion: apiextensions.k8s.io/v1beta1
 kind: CustomResourceDefinition
 metadata:
-  name: federatedservicesoverrides.federated.services.serving.knative.dev
+  name: federatedservicesoverrides.federatedservices.serving.knative.dev
 spec:
   group: federated.serving.knative.dev
   names:
@@ -162,7 +162,7 @@ spec:
 apiVersion: apiextensions.k8s.io/v1beta1
 kind: CustomResourceDefinition
 metadata:
-  name: federated.builds.build.knative.dev
+  name: federatedbuilds.build.knative.dev
 spec:
   group: federated.build.knative.dev
   names:
@@ -175,7 +175,7 @@ spec:
 apiVersion: apiextensions.k8s.io/v1beta1
 kind: CustomResourceDefinition
 metadata:
-  name: federatedbuildsplacements.federated.builds.build.knative.dev
+  name: federatedbuildsplacements.federatedbuilds.build.knative.dev
 spec:
   group: federated.build.knative.dev
   names:
@@ -188,7 +188,7 @@ spec:
 apiVersion: apiextensions.k8s.io/v1beta1
 kind: CustomResourceDefinition
 metadata:
-  name: federatedbuildsoverrides.federated.builds.build.knative.dev
+  name: federatedbuildsoverrides.federatedbuilds.build.knative.dev
 spec:
   group: federated.build.knative.dev
   names:
@@ -202,7 +202,7 @@ spec:
 apiVersion: apiextensions.k8s.io/v1beta1
 kind: CustomResourceDefinition
 metadata:
-  name: federated.buildtemplates.build.knative.dev
+  name: federatedbuildtemplates.build.knative.dev
 spec:
   group: federated.build.knative.dev
   names:
@@ -215,7 +215,7 @@ spec:
 apiVersion: apiextensions.k8s.io/v1beta1
 kind: CustomResourceDefinition
 metadata:
-  name: federatedbuildtemplatesplacements.federated.buildtemplates.build.knative.dev
+  name: federatedbuildtemplatesplacements.federatedbuildtemplates.build.knative.dev
 spec:
   group: federated.build.knative.dev
   names:
@@ -228,7 +228,7 @@ spec:
 apiVersion: apiextensions.k8s.io/v1beta1
 kind: CustomResourceDefinition
 metadata:
-  name: federatedbuildtemplatesoverrides.federated.buildtemplates.build.knative.dev
+  name: federatedbuildtemplatesoverrides.federatedbuildtemplates.build.knative.dev
 spec:
   group: federated.build.knative.dev
   names:
