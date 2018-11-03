@@ -99,7 +99,7 @@ metadata:
 spec:
   group: federated.serving.knative.dev
   names:
-    kind: FederatedRoutesPlacement
+    kind: FederatedRoutePlacement
     plural: federatedroutesplacements
   scope: Namespaced
   version: v1alpha1
