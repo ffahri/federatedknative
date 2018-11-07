@@ -1,0 +1,30 @@
+apiVersion: federation.knative.dev/v1alpha1 # Current version of Knative
+kind: FederatedService
+metadata:
+  name: helloworld-go # The name of the app
+  namespace: default # The namespace the app will use
+spec:
+  template:
+    metadata:
+      name: helloworld-go
+    spec:
+      runLatest:
+        configuration:
+          revisionTemplate:
+            spec:
+              container:
+                image: gcr.io/knative-samples/helloworld-go # The URL to the image of the app
+                env:
+                - name: TARGET # The environment variable printed out by the sample app
+                  value: "Go Sample v1"
+---
+apiVersion: federation.knative.dev/v1alpha1
+kind: FederatedServicePlacement
+metadata:
+  name: helloworld-go
+  namespace: default
+spec:
+  clusterNames:
+  - cluster2
+  - cluster1
+
